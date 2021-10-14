@@ -7,7 +7,7 @@ Step run
 git clone https://github.com/mantvmass/auto-file-one
 ```
 ```
-cd open-auto-file-one
+cd auto-file-one
 ```
 ```
 sh setup.sh
