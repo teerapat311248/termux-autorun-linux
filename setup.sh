@@ -5,14 +5,3 @@ mv profile ../../usr/etc/
 mv termux ../
 cd ..
 mv termux .termux
-
-
-
-
-
-
-
-
-
-
-

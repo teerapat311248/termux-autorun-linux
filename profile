@@ -1,4 +1,4 @@
-for i in /data/data/com.termux/files/usr/etc/profile.d*.sh; do
+for i in /data/data/com.termux/files/usr/etc/profile.d/*.sh; do
     if [ -r $i ]; then
         . $i
     fi
