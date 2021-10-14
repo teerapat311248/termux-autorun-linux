@@ -2,21 +2,14 @@
 [ FILE TWO ](https://github.com/mantvmass/auto-file-two)  
 <br>
 Step run  
-[install os-installer select menu 1](https://github.com/mantvmass/os-installer)
 ```
-git clone https://github.com/mantvmass/auto-file-one
-```
-```
-cd auto-file-one
+termux-setup-storage
 ```
 ```
-sh setup.sh
+pkg install nano
 ```
 ```
-cd
-```
-```
-mkdir -p .termux/boot
+mkdir .termux/boot
 ```
 ```
 cd .termux/boot
@@ -30,4 +23,23 @@ nano boot.sh
 termux-wake-lock
 . $PREFIX/etc/profile
 ```
+หลังจากนั้นรีสตาทเครื่องและรอจนกว่าtermux จะขึ้นเอง
+ถ้าหากขึ้นแล้วก็รันคำสั่งต่อไป
 ```
+cd /data/data/com.termux/files/usr/etc
+```
+```
+nano profile
+```
+เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
+```
+cd && cd /data/data/com.termux/files/usr/etc/os-install
+sh ubun.sh
+```
+```
+cd
+```
+```
+pkg install git
+```
+[ หลังจากนั้นติดตั้ง os-installer เมนูที่1 ](https://github.com/mantvmass/os-installer)
