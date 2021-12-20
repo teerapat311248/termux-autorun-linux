@@ -19,3 +19,8 @@ sh ubun.sh
 ```
 cd
 ```
+### เพิ่มเติม
+การติดตั้ง Linux โดยไม่ผ่าน os-installer ให้ใช้ pkg
+```
+proot-distro
+```
